@@ -1,0 +1,9 @@
+def verifyBoardStructure(board):
+    if len(board) == 9:
+        for char in board:
+            if char not in ['X', 'Y', '-']:
+                return False
+            else:
+                return True
+    else:
+        return False
